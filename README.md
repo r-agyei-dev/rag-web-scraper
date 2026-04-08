@@ -1,10 +1,10 @@
-# 🔍 RAG Web Scraper System
+# RAG Web Scraper System
 
 A modular **Retrieval-Augmented Generation (RAG)** system that combines **web scraping, semantic search, and large language models (LLMs)** to answer questions from real-world data.
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 This project demonstrates an end-to-end RAG pipeline:
 
@@ -22,24 +22,24 @@ It allows users to:
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
-* 🌐 **Web Scraping**
+*  **Web Scraping**
   Extracts real-time data from web pages using `requests` and `BeautifulSoup`.
 
-* ✂️ **Text Chunking**
+*  **Text Chunking**
   Splits large documents into manageable chunks for better retrieval.
 
-* 🔢 **Embeddings**
+*  **Embeddings**
   Uses `sentence-transformers` to convert text into dense vector representations.
 
-* ⚡ **FAISS Vector Search**
+*  **FAISS Vector Search**
   Efficient similarity search to retrieve top-k relevant chunks.
 
-* 🤖 **LLM Generation**
+*  **LLM Generation**
   Uses `FLAN-T5` to generate answers based only on retrieved context.
 
-* 📊 **Evaluation Metrics**
+* **Evaluation Metrics**
 
   * Latency / Response Time
   * Number of retrieved chunks
@@ -48,7 +48,7 @@ It allows users to:
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 rag-web-scraper/
@@ -68,7 +68,7 @@ rag-web-scraper/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/your-username/rag-web-scraper.git
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+## Usage
 
 Run the full pipeline:
 
@@ -95,7 +95,7 @@ query = "What is the World Health Organization?"
 
 ---
 
-## 📌 Example Output
+## Example Output
 
 ```
 QUERY: What is WHO?
@@ -113,7 +113,7 @@ METRICS:
 
 ---
 
-## 📊 Evaluation Metrics Explained
+## Evaluation Metrics Explained
 
 | Metric                 | Description                                               |
 | ---------------------- | --------------------------------------------------------- |
@@ -124,7 +124,7 @@ METRICS:
 
 ---
 
-## 🔥 Why This Project Matters
+## Why This Project Matters
 
 This project showcases:
 
@@ -135,17 +135,7 @@ This project showcases:
 
 ---
 
-## 🚀 Future Improvements
-
-* Add **Streamlit UI** for interactive querying
-* Support **multi-page web crawling**
-* Improve **retrieval evaluation (precision/recall)**
-* Integrate **real-time data sources**
-* Add **caching for faster responses**
-
----
-
-## 🧑‍💻 Author
+## Author
 
 **Ronald Agyei**
 
